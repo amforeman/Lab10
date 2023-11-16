@@ -1,0 +1,71 @@
+Start testing: Nov 15 23:18 CST
+----------------------------------------------------------
+1/1 Testing: pokerHandTest
+1/1 Test: pokerHandTest
+Command: "/home/amforeman/cs300/Lab10/build/pokerHandTest"
+Directory: /home/amforeman/cs300/Lab10/build
+"pokerHandTest" start time: Nov 15 23:18 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/amforeman/cs300/Lab10/googletest/googletest/src/gtest_main.cc
+[==========] Running 22 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 22 tests from PokerHandTest
+[ RUN      ] PokerHandTest.InvalidInput
+[       OK ] PokerHandTest.InvalidInput (3 ms)
+[ RUN      ] PokerHandTest.BestStraightFlush
+[       OK ] PokerHandTest.BestStraightFlush (107 ms)
+[ RUN      ] PokerHandTest.BestFourOfAKind
+[       OK ] PokerHandTest.BestFourOfAKind (100 ms)
+[ RUN      ] PokerHandTest.BestFullHouse
+[       OK ] PokerHandTest.BestFullHouse (103 ms)
+[ RUN      ] PokerHandTest.BestFlush
+[       OK ] PokerHandTest.BestFlush (116 ms)
+[ RUN      ] PokerHandTest.BestStraight
+[       OK ] PokerHandTest.BestStraight (114 ms)
+[ RUN      ] PokerHandTest.BestThreeOfAKind
+[       OK ] PokerHandTest.BestThreeOfAKind (101 ms)
+[ RUN      ] PokerHandTest.BestTwoPairs
+[       OK ] PokerHandTest.BestTwoPairs (116 ms)
+[ RUN      ] PokerHandTest.BestOnePair
+[       OK ] PokerHandTest.BestOnePair (105 ms)
+[ RUN      ] PokerHandTest.BestHighCard
+[       OK ] PokerHandTest.BestHighCard (104 ms)
+[ RUN      ] PokerHandTest.HandleInput
+[       OK ] PokerHandTest.HandleInput (0 ms)
+[ RUN      ] PokerHandTest.CheckValues
+[       OK ] PokerHandTest.CheckValues (12 ms)
+[ RUN      ] PokerHandTest.CheckSuits
+[       OK ] PokerHandTest.CheckSuits (4 ms)
+[ RUN      ] PokerHandTest.HandRank
+[       OK ] PokerHandTest.HandRank (0 ms)
+[ RUN      ] PokerHandTest.StraightFlush
+[       OK ] PokerHandTest.StraightFlush (0 ms)
+[ RUN      ] PokerHandTest.FourOfAKind
+[       OK ] PokerHandTest.FourOfAKind (0 ms)
+[ RUN      ] PokerHandTest.FullHouse
+[       OK ] PokerHandTest.FullHouse (0 ms)
+[ RUN      ] PokerHandTest.Flush
+[       OK ] PokerHandTest.Flush (0 ms)
+[ RUN      ] PokerHandTest.Straight
+[       OK ] PokerHandTest.Straight (0 ms)
+[ RUN      ] PokerHandTest.ThreeOfAKind
+[       OK ] PokerHandTest.ThreeOfAKind (0 ms)
+[ RUN      ] PokerHandTest.TwoPairs
+[       OK ] PokerHandTest.TwoPairs (0 ms)
+[ RUN      ] PokerHandTest.OnePair
+[       OK ] PokerHandTest.OnePair (0 ms)
+[----------] 22 tests from PokerHandTest (991 ms total)
+
+[----------] Global test environment tear-down
+[==========] 22 tests from 1 test suite ran. (991 ms total)
+[  PASSED  ] 22 tests.
+<end of output>
+Test time =   0.99 sec
+----------------------------------------------------------
+Test Passed.
+"pokerHandTest" end time: Nov 15 23:18 CST
+"pokerHandTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 15 23:18 CST
